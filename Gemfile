@@ -22,6 +22,7 @@ end
 
 gem 'jquery-rails'
 
+# Include all the gems specific to rspec and cucumber testing
 gem "rspec-rails", ">= 2.10.1", :group => [:development, :test]
 gem "factory_girl_rails", ">= 3.3.0", :group => [:development, :test]
 gem "email_spec", ">= 1.2.1", :group => :test
