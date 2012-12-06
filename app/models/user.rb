@@ -1,4 +1,11 @@
 class User < ActiveRecord::Base
+
+  # Add validation for checking if name and email exist
+  # and are unique
+
+  validates_presence_of :name
+  validates_uniqueness_of :name, :email, :case_sensitive => false
+ 
   # Include default devise modules. Others available are:
   # :token_authenticatable, :confirmable,
   # :lockable, :timeoutable and :omniauthable
