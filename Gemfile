@@ -15,7 +15,7 @@ gem 'heroku'
 
 gem 'sass-rails', '~> 3.2.3', :group => [:assets, :development, :test, :production]
 gem 'coffee-rails', '~> 3.2.1', :group => [:assets, :development, :test, :production]
-gem 'therubyracer', :platforms => :ruby, :group => [:assets, :development, :test]
+gem 'therubyracer', :platforms => :ruby, :group => [:development, :test]
 gem 'uglifier', '>= 1.0.3', :group => [:assets, :development, :test, :production]
 
 gem 'jquery-rails'
